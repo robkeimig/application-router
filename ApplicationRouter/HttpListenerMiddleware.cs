@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace ApplicationProxy
+namespace ApplicationRouter
 {
     public class HttpListenerMiddleware
     {

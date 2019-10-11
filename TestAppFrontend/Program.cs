@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Threading;
-using ApplicationProxy;
+using System.Net;
+using ApplicationRouter;
 
 namespace TestAppFrontend
 {
@@ -27,7 +27,6 @@ namespace TestAppFrontend
                 UpstreamPort = 9000,
                 DownstreamHost = "localhost",
                 DownstreamPort = 8889,
-                DownstreamIsTls = false
             };
 
             service.AddRoute(route2);
@@ -38,10 +37,10 @@ namespace TestAppFrontend
                 UpstreamPort = 9001,
                 DownstreamHost = "localhost",
                 DownstreamPort = 9000,
-                DownstreamIsTls = false
             };
 
             service.AddRoute(route3);
+            new WebClient().DownloadFile("http://localhost:9001/100MB.bin", "test.bin");
             Console.ReadKey();
         }
     }

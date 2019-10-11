@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ApplicationProxy
+namespace ApplicationRouter
 {
     public class Route
     {

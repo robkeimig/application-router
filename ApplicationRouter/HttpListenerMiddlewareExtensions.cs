@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace ApplicationProxy
+namespace ApplicationRouter
 {
     public static class HttpListenerMiddlewareExtensions
     {

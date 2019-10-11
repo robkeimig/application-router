@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ApplicationProxy
+namespace ApplicationRouter
 {
     public class RoutingService
     {
@@ -226,7 +226,5 @@ namespace ApplicationProxy
                 builder.UseHttpListenerMiddleware();
             }
         }
-
-        
     }
 }

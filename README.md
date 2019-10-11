@@ -3,7 +3,7 @@
 
 Utilizes:
 - `AspNetCore`/`Kestrel` for servicing external requests.
-- `HttpClient` for making internal requests.
+- `HttpClient` (per managed request thread id) for making internal requests.
 
 Features:
 - [ ] Support all HTTP Verbs (very buggy GET-only sample here)

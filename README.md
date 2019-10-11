@@ -7,3 +7,5 @@ Objectives:
 - [ ] Support all HTTP Verbs (very buggy GET-only sample here)
 - [ ] TLS 
 - [ ] ???
+
+See TestAppFrontEnd for an idea of how this works (or doesn't).

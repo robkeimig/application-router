@@ -1,5 +1,5 @@
 # application-router
-.NET Core Application Routing Framework
+A .NET Core Application Routing Framework.
 
 Utilizes:
 - `AspNetCore`/`Kestrel` for servicing external requests.
